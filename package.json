@@ -219,6 +219,16 @@
                     "default": "lua",
                     "description": "%emmylua.debugger.defaultProgram%"
                 },
+                "emmylua.debugger.type": {
+                    "type": "string",
+                    "default": "lua",
+                    "description": "调试类型",
+                    "enum": [
+                        "Cocos2",
+                        "Cocos3",
+                        "Unity"
+                    ]
+                },
                 "emmylua.colors.parameter": {
                     "type": "string",
                     "default": "#99FFCC"
